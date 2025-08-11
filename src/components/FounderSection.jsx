@@ -73,8 +73,8 @@ const FounderSection = () => {
   }, []);
 
   return (
-    <section ref={founderRef} className="py-32 px-6 relative">
-      <div className="founder-container max-w-7xl mx-auto relative z-10 backdrop-blur-sm bg-gray-600/30 border border-gray-400/20 rounded-3xl p-12 shadow-2xl shadow-black/40">
+    <section ref={founderRef} className="py-32 px-4 md:px-6 relative">
+      <div className="founder-container max-w-7xl mx-auto relative z-10 backdrop-blur-sm bg-gray-600/30 border border-gray-400/20 rounded-3xl p-6 md:p-12 shadow-2xl shadow-black/40">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="founder-content">
             <h2 className="text-6xl font-black uppercase tracking-tight text-white mb-8 font-mono">
@@ -98,10 +98,11 @@ const FounderSection = () => {
               
               {/* Connected Tech Stack Web */}
               <svg 
-                width="320" 
-                height="280" 
+                width="100%" 
+                height="100%" 
                 viewBox="0 0 320 280" 
-                className="text-gray-300 relative z-10"
+                className="text-gray-300 relative z-10 max-w-full max-h-full"
+                preserveAspectRatio="xMidYMid meet"
               >
                 {/* Central hub with stitching pattern */}
                 <circle 

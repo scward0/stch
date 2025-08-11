@@ -127,6 +127,11 @@
   .glitch {
     animation-duration: 0.2s;
   }
+  
+  /* Hero section mobile height adjustment */
+  section[class*="min-h-screen"] {
+    min-height: 80vh;
+  }
 }
 
 /* Basic scroll setup */
