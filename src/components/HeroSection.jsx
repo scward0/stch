@@ -198,7 +198,7 @@ const HeroSection = ({ onTypingComplete, contactRef }) => {
   }, [onTypingComplete]);
 
   return (
-    <section className="min-h-screen md:min-h-screen flex items-center justify-center px-4 md:px-6 relative overflow-hidden pt-20 md:pt-0">
+    <section className="min-h-screen md:min-h-screen flex items-center justify-center px-4 md:px-6 relative overflow-hidden pt-32 md:pt-0">
       <div ref={heroContentRef} className="hero-content max-w-7xl mx-auto w-full relative z-10 backdrop-blur-sm bg-gray-600/30 border border-gray-400/20 rounded-3xl p-6 md:p-12 shadow-2xl shadow-black/40">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div>

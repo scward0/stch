@@ -119,8 +119,8 @@ const ContactSection = forwardRef((props, ref) => {
   }, [ref]);
 
   return (
-    <section ref={ref} className="py-32 px-6 relative">
-      <div className="contact-container max-w-4xl mx-auto text-center relative z-10 backdrop-blur-sm bg-gray-600/30 border border-gray-400/20 rounded-3xl p-12 shadow-2xl shadow-black/40">
+    <section ref={ref} className="py-32 px-4 md:px-6 relative">
+      <div className="contact-container max-w-4xl mx-auto text-center relative z-10 backdrop-blur-sm bg-gray-600/30 border border-gray-400/20 rounded-3xl p-6 md:p-12 shadow-2xl shadow-black/40">
         <div className="contact-content">
           <h2 className="contact-title text-6xl font-black uppercase tracking-tight text-white mb-8 font-mono">
             BUILD.<br/>LAUNCH.<br/>SCALE.
@@ -136,7 +136,7 @@ const ContactSection = forwardRef((props, ref) => {
           <div className="space-y-6">
             <button 
               onClick={toggleContactForm}
-              className="contact-button bg-white text-black px-12 py-4 font-black uppercase tracking-wider hover:bg-gray-200 transition-all duration-200 font-mono transform hover:scale-105"
+              className="contact-button bg-white text-black px-6 md:px-12 py-4 font-black uppercase tracking-wide md:tracking-wider hover:bg-gray-200 transition-all duration-200 font-mono transform hover:scale-105 text-sm md:text-base"
             >
               {contactFormVisible ? 'HIDE_CONTACT' : 'START_PROJECT'}
             </button>
